@@ -1,6 +1,6 @@
-example = '''
+reusable = '''
 
-# Reusable slides
+## Reusable slides
 
 Store markdown in a [data template](https://gohugo.io/templates/data-templates/) and reuse it in multiple sections or presentations.
 
@@ -13,23 +13,22 @@ navigate down to learn more
 
 ---
 
-Add an `example` key to data/home.toml:
+Add a `example` key to data/home.toml:
 
-```
+```toml
 example = "I'm a slide"
 ```
 <br>
 
 Set the `content` attribute to "home.example":
 
-```
-{{% slide content="home.example" /%}}
-```
+```markdown
+---
 
-<br>
-<small>
-💡 Make sure to use a closing or self-closing shortcode.
-</small>
+{{< slide content="home.example" >}}
+
+---
+```
 
 ---
 
