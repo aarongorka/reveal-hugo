@@ -8,12 +8,16 @@ weight = 10
 - All out-of-the-box Reveal.js themes
 - Two custom Reveal.js themes (including this one)
 
+<br>
+[see the code on github](https://github.com/dzello/reveal-hugo)
+
 ---
 
 ## Features
 
 - Write slides in Markdown in one or more files
-- Shorcodes for fragments, sections, slides & more
+- Shortcodes for fragments, sections, slides & more
 - All Reveal.js parameters can be customized
 - Any Hugo section can be output as a presentation
+- Supports offline development or using a CDN
 
